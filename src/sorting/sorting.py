@@ -4,6 +4,8 @@ def merge(arrA, arrB):
     merged_arr = [0] * elements
 
     # Your code here
+    if arrA[0] < arrB[0]:
+        merged_arr.append(arrA[0])
 
 
     return merged_arr
